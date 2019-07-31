@@ -26,6 +26,10 @@ namespace FunMath
 
             Button btn = FindViewById<Button>(Resource.Id.button2);
             btn.Click += delegate { StartActivity(typeof(MainActivity)); };
+            Button game1btn = FindViewById<Button>(Resource.Id.button3);
+            game1btn.Click += delegate { StartActivity(typeof(Game1)); };
+            Button game2btn = FindViewById<Button>(Resource.Id.button4);
+            game2btn.Click += delegate { StartActivity(typeof(Game2)); };
 
         }
 

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<!--ImageView
+		android:src="@drawable/question"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/imageView1"
+		android:maxHeight="50px"
+		android:maxWidth="50px" /-->
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/message"
+		android:textAlignment="center"
+		android:textSize="35px"/>
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/Question1"
+		android:textAlignment="center"
+		android:textSize="35px"/>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1"
+		android:gravity="center">
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/answer1"
+			android:background="#ff84ffff" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/answer2"
+			android:background="#ffff80ab" />
+	</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout2"
+		android:gravity="center">
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/answer3"
+			android:background="#ffffff8d" />
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/answer4"
+			android:background="#ffccff90" />
+	</LinearLayout>
+	<Button
+		android:text="Next Question"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/nextgame"
+		android:visibility="invisible" />
+	<Button
+		android:text="Back"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/button5" />
+
+</LinearLayout>

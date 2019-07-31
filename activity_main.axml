@@ -56,8 +56,4 @@
         android:clickable="true"/>
     </LinearLayout>
   </ScrollView>
-
-
-
-
 </android.support.design.widget.CoordinatorLayout>
