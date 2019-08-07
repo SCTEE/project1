@@ -48,19 +48,22 @@
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:id="@+id/button3"
-				android:background="#ffff80ab" />
+				android:background="#ffff80ab"
+				android:textSize="20dp" />
 			<Button
 				android:text="Game 2"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:id="@+id/button4"
-				android:background="#ffecd85b" />
+				android:background="#ffecd85b"
+				android:textSize="20dp" />
 			<Button
 				android:text="Back"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
 				android:id="@+id/button2"
-				android:background="#ff84ffff" />
+				android:background="#ff84ffff"
+				android:textSize="20dp" />
 		</LinearLayout>
 	</ScrollView>
 </android.support.design.widget.CoordinatorLayout>

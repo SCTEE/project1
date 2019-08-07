@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="vertical"
-	android:layout_width="match_parent"
-	android:layout_height="match_parent">
-		<ScrollView
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<ScrollView
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/scrollView1">
+		android:id="@+id/game2scrollView1">
 	<LinearLayout
 		android:orientation="vertical"
 		android:minWidth="25px"
 		android:minHeight="25px"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/linearLayout3">
+		android:id="@+id/game2linearLayout3">
 	<TextView
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/point1"
+		android:id="@+id/game2point1"
 		android:textAlignment="center"
 		android:textSize="35px"/>
 	<TextView
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/message"
+		android:id="@+id/game2message"
 		android:textAlignment="center"
 		android:textSize="35px"/>
 	<TextView
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/Question1"
+		android:id="@+id/game2Question1"
 		android:textAlignment="center"
 		android:textSize="35px"/>
 	<LinearLayout
@@ -41,20 +40,22 @@
 		android:minHeight="25px"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/linearLayout1"
+		android:id="@+id/game2linearLayout1"
 		android:gravity="center">
 		<Button
 			android:layout_width="wrap_content"
 			android:layout_height="match_parent"
-			android:id="@+id/answer1"
-			android:textSize="50px" 
-			android:background="#ff84ffff" />
+			android:id="@+id/game2answer1"
+			android:background="#ff84ffff"
+			android:text="+"
+			android:textSize="50px" />
 		<Button
 			android:layout_width="wrap_content"
 			android:layout_height="match_parent"
-			android:id="@+id/answer2"
-			android:textSize="50px" 
-			android:background="#ffff80ab" />
+			android:id="@+id/game2answer2"
+			android:background="#ffff80ab" 
+			android:text="-"
+			android:textSize="50px" />
 	</LinearLayout>
 	<LinearLayout
 		android:orientation="horizontal"
@@ -62,42 +63,43 @@
 		android:minHeight="25px"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/linearLayout2"
+		android:id="@+id/game2linearLayout2"
 		android:gravity="center">
 		<Button
 			android:layout_width="wrap_content"
 			android:layout_height="match_parent"
-			android:id="@+id/answer3"
-			android:textSize="50px" 
-			android:background="#ffffff8d" />
+			android:id="@+id/game2answer3"
+			android:background="#ffffff8d" 
+			android:text="X"
+			android:textSize="50px" />
 		<Button
 			android:layout_width="wrap_content"
 			android:layout_height="match_parent"
-			android:id="@+id/answer4"
-			android:textSize="50px" 
-			android:background="#ffccff90" />
+			android:id="@+id/game2answer4"
+			android:background="#ffccff90" 
+			android:text="÷"
+			android:textSize="50px" />
 	</LinearLayout>
 	<Button
 		android:text="Next Question"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:id="@+id/nextgame"
+		android:id="@+id/game2nextgame"
 		android:textSize="20dp"
 		android:visibility="invisible" />
 			<Button
 				android:text="Back"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
-				android:id="@+id/button5"
+				android:id="@+id/game2button5"
 				android:textSize="20dp" />
 			<Button
 				android:text="Save"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content"
-				android:id="@+id/savebutton"
+				android:id="@+id/game2savebutton"
 				android:textSize="20dp" />
 
-</LinearLayout>
+	</LinearLayout>
 </ScrollView>
 </LinearLayout>
-
